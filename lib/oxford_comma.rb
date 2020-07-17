@@ -6,10 +6,4 @@ def oxford_comma(array)
   else array.length >= 3
   array.slice(0..-2).join(", ") + ", and #{array.last}"
   end
-  if array
-    return [0]
-  elsif array.length = 1
-    array.join(" and ")
-  else array
-  end
 end
