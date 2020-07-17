@@ -10,5 +10,5 @@ def oxford_comma(array)
   elsif array.length = 1
     array.join(" and ")
   else array
-    end
+  end
 end
